@@ -8,19 +8,18 @@ import AppBar from "../components/appBar.vue"
     <!-- <div class="container"> -->
     <v-app>
         <AppBar />
-
-        <v-container>
-            <!-- <Head>
-                <title>Billboard</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head> -->
-            <!-- <LanguageSwitch /> -->
-            <!-- <main class="main"> -->
-            <v-main>
-                <slot/>
-            </v-main>
-            <!-- </main> -->
-        </v-container>
+            <v-container class="h-full">
+                <!-- <Head>
+                    <title>Billboard</title>
+                    <link rel="icon" href="/favicon.ico" />
+                </Head> -->
+                <!-- <LanguageSwitch /> -->
+                <!-- <main class="main"> -->
+                <v-main  class="h-full">
+                    <slot/>
+                </v-main>
+                <!-- </main> -->
+            </v-container>
     </v-app>
     <!-- </div> -->
 </template>

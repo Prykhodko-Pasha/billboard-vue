@@ -1,7 +1,10 @@
 <template>
     <!-- <div class="app_bar"> -->
         <v-app-bar app extended>
-            <Navigation />
+            <div class="w-full flex justify-between">
+                <Navigation />
+                <AuthNav />
+            </div>
         </v-app-bar>
         
         <!-- {user ? (

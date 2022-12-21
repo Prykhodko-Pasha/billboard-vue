@@ -17,7 +17,7 @@
     
 </script>
 
-<style scoped>
+<style>
     .nav {
         display: flex;
         align-items: center;

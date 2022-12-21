@@ -12,7 +12,12 @@
             <v-container> -->
                 <v-row>
                     <v-col v-for="n in 24" :key="n" cols="4">
-                        <v-card height="200"></v-card>
+                        <v-card title="Card title" subtitle="Subtitle" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est" height="200">
+                            <v-card-actions>
+                                <v-btn>Edit</v-btn>
+                                <v-btn>Delete</v-btn>
+                            </v-card-actions>
+                        </v-card>
                     </v-col>
                 </v-row>
             <!-- </v-container>
@@ -44,9 +49,8 @@
 </template>
 
 <script>
-    export default {
-        
-    }
+    // const {data: bills} = await useFetch('')
+
 </script>
 
 <style lang="scss" scoped>
